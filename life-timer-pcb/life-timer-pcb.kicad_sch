@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3b5759b5-510b-4b82-9847-a17813feb38e")
 	(paper "A4")
+	(title_block
+		(title "Life Timer")
+		(date "2025-10-10")
+		(rev "1")
+		(company "venomboss985")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
