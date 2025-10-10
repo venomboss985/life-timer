@@ -431,6 +431,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -692,133 +853,6 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Speaker"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at 1.27 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Speaker"
-				(at 1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.254 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Speaker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "speaker sound"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Speaker_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.016 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Speaker_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1596,7 +1630,7 @@
 		)
 		(uuid "df9095a0-c806-4a11-a2cf-30aa00135656")
 	)
-	(text_box "- Find part for piezo speaker\n- Assign footprints to components\n- Initial PCB layout (ignore display for now)\n- Prep PCB for milling\n- Create BOM for Digikey"
+	(text_box "- [x] Find part for piezo speaker\n- [x] Assign footprints to components\n- [ ] Initial PCB layout (ignore display for now)\n- [ ] Create BOM for Digikey\n- [ ] Prep PCB for milling"
 		(exclude_from_sim no)
 		(at 208.788 76.962 0)
 		(size 55.88 27.94)
@@ -2082,6 +2116,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 109.22) (xy 74.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8cd458-d3e5-4680-92de-b0fb6b1eec2f")
+	)
+	(wire
+		(pts
 			(xy 125.73 107.95) (xy 124.46 107.95)
 		)
 		(stroke
@@ -2129,6 +2173,16 @@
 			(type default)
 		)
 		(uuid "b9098e2c-56bc-4177-8796-ca60f4668f43")
+	)
+	(wire
+		(pts
+			(xy 88.9 107.95) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8afe3f-866b-4a2c-9906-413f92f7a47c")
 	)
 	(wire
 		(pts
@@ -2202,16 +2256,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 88.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db2af9a6-c8aa-4b6c-af6f-83bdfc7dccba")
-	)
-	(wire
-		(pts
 			(xy 48.26 60.96) (xy 48.26 63.5)
 		)
 		(stroke
@@ -2232,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 109.22) (xy 91.44 110.49)
+			(xy 93.98 107.95) (xy 93.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 106.68 64.77 0)
 			(effects
 				(font
@@ -2560,6 +2604,24 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 101.6 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
+			(at 101.6 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,6 +2705,94 @@
 			(project "life-timer-pcb"
 				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 91.44 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eee6c6f-7a1c-4e8b-af5d-b88066071b39")
+		(property "Reference" "BZ1"
+			(at 95.25 103.3848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 95.25 105.9248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_CUI_CPT-9019S-SMT"
+			(at 88.9 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 106.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CPT-9019S-SMT-TR/6012432?s=N4IgTCBcDaIMYAcAuBOADARhQZxAXQF8g"
+			(at 91.44 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" "$1.82"
+			(at 91.44 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "780a37aa-0bff-4d63-b0af-e65f2a59515e")
+		)
+		(pin "1"
+			(uuid "b56fc8e0-1ccf-4b06-ad32-a7d005f3d76d")
+		)
+		(instances
+			(project ""
+				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -2742,7 +2892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 113.03 0)
 			(effects
 				(font
@@ -2769,6 +2919,24 @@
 				(hide yes)
 			)
 		)
+		(property "DK Link" ""
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3e734b4-a0b1-4c54-bc4c-1e07d529af7d")
 		)
@@ -2779,76 +2947,6 @@
 			(project "life-timer-pcb"
 				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker")
-		(at 88.9 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f851869-9464-4b66-9066-2869d576b740")
-		(property "Reference" "LS1"
-			(at 96.52 102.3619 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Speaker"
-			(at 96.52 104.9019 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 88.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa8d3aef-edf0-4031-82d3-e718e37a7779")
-		)
-		(pin "2"
-			(uuid "f7b8290c-0821-4548-85f5-f38e207853d9")
-		)
-		(instances
-			(project ""
-				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
-					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -2882,7 +2980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 104.14 0)
 			(effects
 				(font
@@ -2901,6 +2999,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 138.43 104.14 0)
 			(effects
 				(font
@@ -2952,7 +3068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 48.26 66.04 0)
 			(effects
 				(font
@@ -2971,6 +3087,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A476MQHNNNE/3886825"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" "$0.31"
 			(at 48.26 66.04 0)
 			(effects
 				(font
@@ -3002,10 +3136,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38013494-676f-45b4-87ff-98072cc9a90a")
 		(property "Reference" "J1"
-			(at 150.495 57.15 0)
+			(at 150.622 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3146,7 @@
 			)
 		)
 		(property "Value" "SSD1306_Socket"
-			(at 150.495 59.69 0)
+			(at 150.622 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,6 +3172,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -3096,7 +3247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -3115,6 +3266,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -3364,7 +3533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.91 68.58 0)
 			(effects
 				(font
@@ -3383,6 +3552,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 168.91 68.58 0)
 			(effects
 				(font
@@ -3566,7 +3753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
 			(at 43.18 65.786 90)
 			(effects
 				(font
@@ -3585,6 +3772,24 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 43.18 67.31 0)
 			(effects
 				(font
@@ -3636,7 +3841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -3655,6 +3860,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -3704,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -3723,6 +3946,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 130.81 118.11 0)
 			(effects
 				(font
@@ -3772,7 +4013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 130.81 123.19 0)
 			(effects
 				(font
@@ -3799,11 +4040,29 @@
 				(hide yes)
 			)
 		)
+		(property "DK Link" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "d79d4f0c-ba1f-42a8-964d-18a66c692c04")
+			(uuid "d79d4f0c-ba1f-42a8-964d-18a66c692c05")
 		)
 		(pin "1"
-			(uuid "d9a4e4a2-0031-4ad7-894c-499ac7d25e7a")
+			(uuid "d9a4e4a2-0031-4ad7-894c-499ac7d25e7b")
 		)
 		(instances
 			(project ""
@@ -3862,6 +4121,24 @@
 			)
 		)
 		(property "Description" "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIC-8"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 59.69 109.22 0)
 			(effects
 				(font
@@ -3931,7 +4208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -3950,6 +4227,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" ""
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -4041,7 +4336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 110.49 0)
+		(at 93.98 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4050,7 +4345,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecc81ede-de09-482a-8486-5ff2a1a626bd")
 		(property "Reference" "#PWR09"
-			(at 91.44 116.84 0)
+			(at 93.98 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 115.57 0)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 110.49 0)
+			(at 93.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 110.49 0)
+			(at 93.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 110.49 0)
+			(at 93.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 130.81 102.87 0)
 			(effects
 				(font
@@ -4158,11 +4453,29 @@
 				(hide yes)
 			)
 		)
+		(property "DK Link" ""
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" ""
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "d79d4f0c-ba1f-42a8-964d-18a66c692c04")
+			(uuid "d79d4f0c-ba1f-42a8-964d-18a66c692c06")
 		)
 		(pin "1"
-			(uuid "d9a4e4a2-0031-4ad7-894c-499ac7d25e7a")
+			(uuid "d9a4e4a2-0031-4ad7-894c-499ac7d25e7c")
 		)
 		(instances
 			(project ""
