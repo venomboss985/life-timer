@@ -3306,7 +3306,6 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 49.53 64.77 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3314,7 +3313,7 @@
 		(dnp no)
 		(uuid "34863923-7275-4176-93e1-eef24939d90f")
 		(property "Reference" "C1"
-			(at 52.07 65.9131 0)
+			(at 52.07 63.6269 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3322,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 52.07 63.3731 0)
+			(at 52.07 66.1669 0)
 			(effects
 				(font
 					(size 1.27 1.27)
