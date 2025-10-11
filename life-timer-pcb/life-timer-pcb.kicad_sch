@@ -1812,7 +1812,7 @@
 		)
 		(uuid "df9095a0-c806-4a11-a2cf-30aa00135656")
 	)
-	(text_box "- [x] Find part for piezo speaker\n- [x] Assign footprints to components\n- [ ] Initial PCB layout (ignore display for now)\n- [ ] Create BOM for Digikey\n- [ ] Prep PCB for milling"
+	(text_box "- [x] Find part for piezo speaker\n- [x] Assign footprints to components\n- [x] Initial PCB layout (ignore display for now)\n- [x] Create BOM for Digikey\n- [ ] Prep PCB for milling"
 		(exclude_from_sim no)
 		(at 208.788 76.962 0)
 		(size 55.88 27.94)
@@ -2807,7 +2807,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/c-k/PTS636SM43SMTR-LFS/10071723"
 			(at 101.6 64.77 90)
 			(effects
 				(font
@@ -2816,7 +2816,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.20"
+			(at 101.6 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "108-PTS636SM43SMTRLFSCT-ND"
 			(at 101.6 64.77 90)
 			(effects
 				(font
@@ -2979,6 +2988,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK PN" "102-3761-1-ND"
+			(at 91.44 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "780a37aa-0bff-4d63-b0af-e65f2a59515e")
 		)
@@ -3115,7 +3133,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
 			(at 137.16 113.03 0)
 			(effects
 				(font
@@ -3124,7 +3142,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.10"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "RMCF0805FT10K0CT-ND"
 			(at 137.16 113.03 0)
 			(effects
 				(font
@@ -3196,6 +3223,33 @@
 		)
 		(property "Description" "Switch, single pole double throw"
 			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Link" "https://www.digikey.com/en/products/detail/c-k/OS102011MA1QN1/1981430"
+			(at 41.91 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "CKN9559-ND"
+			(at 41.91 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK Price" "$0.63"
+			(at 41.91 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3330,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -3285,7 +3339,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.10"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "RMCF0805FT10K0CT-ND"
 			(at 137.16 104.14 0)
 			(effects
 				(font
@@ -3381,6 +3444,15 @@
 				(hide yes)
 			)
 		)
+		(property "DK PN" "1276-1167-1-ND"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5185dca-c620-4b0d-be4c-e6e558bae0ec")
 		)
@@ -3402,7 +3474,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "38013494-676f-45b4-87ff-98072cc9a90a")
@@ -3459,6 +3531,15 @@
 			)
 		)
 		(property "DK Price" ""
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" ""
 			(at 149.86 64.77 0)
 			(effects
 				(font
@@ -3543,7 +3624,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -3552,7 +3633,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.10"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "RMCF0805FT10K0CT-ND"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -3828,7 +3918,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KOQNNNE/3886754"
 			(at 168.91 68.58 0)
 			(effects
 				(font
@@ -3837,7 +3927,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.08"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "1276-1096-1-ND"
 			(at 168.91 68.58 0)
 			(effects
 				(font
@@ -4048,7 +4147,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/keystone-electronics/3002/227444"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -4057,7 +4156,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.66"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "36-3002-ND"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -4136,7 +4244,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0730KL/728799"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -4145,7 +4253,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.10"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "311-30.0KFRCT-ND"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -4222,7 +4339,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
 			(at 130.81 118.11 0)
 			(effects
 				(font
@@ -4231,7 +4348,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.13"
+			(at 130.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "450-1650-ND"
 			(at 130.81 118.11 0)
 			(effects
 				(font
@@ -4308,7 +4434,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
 			(at 130.81 128.27 0)
 			(effects
 				(font
@@ -4317,7 +4443,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.13"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "450-1650-ND"
 			(at 130.81 128.27 0)
 			(effects
 				(font
@@ -4397,7 +4532,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/microchip-technology/ATTINY85-20SU/735470"
 			(at 59.69 109.22 0)
 			(effects
 				(font
@@ -4406,7 +4541,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$1.50"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "ATTINY85-20SU-ND"
 			(at 59.69 109.22 0)
 			(effects
 				(font
@@ -4503,7 +4647,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"
 			(at 137.16 96.52 0)
 			(effects
 				(font
@@ -4512,7 +4656,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.10"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "RMCF0805FT10K0CT-ND"
 			(at 137.16 96.52 0)
 			(effects
 				(font
@@ -4721,7 +4874,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK Link" ""
+		(property "DK Link" "https://www.digikey.com/en/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536"
 			(at 130.81 107.95 0)
 			(effects
 				(font
@@ -4730,7 +4883,16 @@
 				(hide yes)
 			)
 		)
-		(property "DK Price" ""
+		(property "DK Price" "$0.13"
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK PN" "450-1650-ND"
 			(at 130.81 107.95 0)
 			(effects
 				(font

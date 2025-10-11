@@ -509,7 +509,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "build",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -542,15 +542,33 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "group_by": false,
+          "label": "DK PN",
+          "name": "DK PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DK Price",
+          "name": "DK Price",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DK Link",
+          "name": "DK Link",
           "show": true
         },
         {
@@ -594,18 +612,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DK Link",
-          "name": "DK Link",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "DK Price",
-          "name": "DK Price",
-          "show": true
         }
       ],
       "filter_string": "",
