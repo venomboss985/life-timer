@@ -977,7 +977,7 @@
 				)
 			)
 		)
-		(property "Value" "BTN1"
+		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
 			(uuid "5cb0f911-6374-436b-9940-7f271e3ac03f")
@@ -2219,7 +2219,7 @@
 				)
 			)
 		)
-		(property "Value" "BTN2"
+		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
 			(uuid "bf178daf-aa04-4085-8520-40fc17de51ea")
@@ -2843,7 +2843,7 @@
 				)
 			)
 		)
-		(property "Value" "BTN0"
+		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
 			(uuid "2ef86ae2-8be0-4349-9d86-933ce003e005")

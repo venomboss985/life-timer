@@ -4304,7 +4304,7 @@
 				)
 			)
 		)
-		(property "Value" "BTN1"
+		(property "Value" "SW_Push"
 			(at 130.81 113.03 0)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 				)
 			)
 		)
-		(property "Value" "BTN2"
+		(property "Value" "SW_Push"
 			(at 130.81 123.19 0)
 			(effects
 				(font
@@ -4839,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Value" "BTN0"
+		(property "Value" "SW_Push"
 			(at 130.81 102.87 0)
 			(effects
 				(font
