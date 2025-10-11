@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|104905000|102099500|F.Cu|4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4",
-          "THT components acting as vias"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
