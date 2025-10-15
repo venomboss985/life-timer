@@ -2079,8 +2079,8 @@
 	)
 	(text_box "Notes:\n- VCC = (2.7, 3, 3.2)"
 		(exclude_from_sim no)
-		(at 55.88 44.45 0)
-		(size 21.59 17.78)
+		(at 57.15 57.15 0)
+		(size 20.32 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -2144,6 +2144,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e2ff27-2379-459d-b2d6-8445957492bf")
+	)
+	(junction
+		(at 49.53 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74c0909-7eba-4607-a35f-3e37741b9ab5")
 	)
 	(junction
 		(at 46.99 71.12)
@@ -2373,6 +2379,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593a7a79-bf18-4e2a-afab-11ebb412d9d9")
+	)
+	(wire
+		(pts
 			(xy 74.93 114.3) (xy 77.47 114.3)
 		)
 		(stroke
@@ -2380,6 +2396,16 @@
 			(type default)
 		)
 		(uuid "609908fc-1304-4ee5-8f86-276aeb0a5c99")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634ab95e-16e1-4843-a049-811fab81ee8f")
 	)
 	(wire
 		(pts
@@ -2583,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 48.26) (xy 68.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba597827-4300-406f-80ff-d963c0fbbe75")
+	)
+	(wire
+		(pts
 			(xy 124.46 107.95) (xy 124.46 118.11)
 		)
 		(stroke
@@ -2620,6 +2656,16 @@
 			(type default)
 		)
 		(uuid "c2b3ff8d-8a8a-449f-a874-e4500a239bc6")
+	)
+	(wire
+		(pts
+			(xy 49.53 48.26) (xy 52.07 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6eadba8-a285-4387-abde-9fe5e60461c0")
 	)
 	(wire
 		(pts
@@ -2679,7 +2725,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e0ca1745-6f48-4b15-b7e9-f6ae5b8a4ec0")
+		(uuid "e3d6ab3d-fa68-4b58-b109-c9d49b5f4042")
 	)
 	(wire
 		(pts
@@ -4019,6 +4065,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 48.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d34240d-3927-4462-b524-e65c35b467c4")
+		(property "Reference" "R7"
+			(at 54.61 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 54.61 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be74ae8b-6f0e-40c2-bb7b-9c1553830a83")
+		)
+		(pin "1"
+			(uuid "07d96765-e12f-42eb-9105-8548cc5a3fbc")
+		)
+		(instances
+			(project "life-timer-pcb"
+				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 125.73 0)
 		(unit 1)
@@ -4213,6 +4327,72 @@
 			(project "life-timer-pcb"
 				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88cbb829-944f-4bab-b16b-b75f1d347e40")
+		(property "Reference" "#PWR013"
+			(at 68.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3edcb17-314b-4ba1-a48f-d6e025708e6d")
+		)
+		(instances
+			(project "life-timer-pcb"
+				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5246,6 +5426,83 @@
 			(project "life-timer-pcb"
 				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 62.23 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1a9f619-6912-4ddb-bd2e-f409e813fa33")
+		(property "Reference" "D2"
+			(at 62.1665 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 62.1665 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 62.23 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ebeb19a2-03ee-4b3c-b66a-7e7c9c76f629")
+		)
+		(pin "1"
+			(uuid "610bf440-8b6f-47ac-a8b8-be75d59e9c11")
+		)
+		(instances
+			(project "life-timer-pcb"
+				(path "/3b5759b5-510b-4b82-9847-a17813feb38e"
+					(reference "D2")
 					(unit 1)
 				)
 			)

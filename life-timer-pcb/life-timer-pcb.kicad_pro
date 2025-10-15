@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|152792452|104107544|F.Cu|4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4",
+          "unconnected_items|147099234|98500000|F.Cu|4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4",
           "THT components acting as vias"
         ]
       ],
