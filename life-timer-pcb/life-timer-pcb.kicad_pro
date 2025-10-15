@@ -60,8 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|144174685|104249500|F.Cu|4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4",
-          ""
+          "unconnected_items|152792452|104107544|F.Cu|4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4|3b72a4f9-8dad-4cd3-946b-c2405fcdc3e4",
+          "THT components acting as vias"
         ]
       ],
       "meta": {
@@ -248,16 +248,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|596900|1257300|928c05c3-1c96-4d83-9d2b-29b4ebb98cd7|00000000-0000-0000-0000-000000000000|/3b5759b5-510b-4b82-9847-a17813feb38e|/3b5759b5-510b-4b82-9847-a17813feb38e|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|596900|927100|51d4c98a-7236-481b-bf93-402be4a90ceb|00000000-0000-0000-0000-000000000000|/3b5759b5-510b-4b82-9847-a17813feb38e|/3b5759b5-510b-4b82-9847-a17813feb38e|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
